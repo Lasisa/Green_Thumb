@@ -1,0 +1,19 @@
+@use "variables";
+
+.header {
+    background-color: variables.$main-bg-color;
+    color: variables.$main-color;
+    //width: variables.$main-width;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    .header_p2 {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+   
+    
+}
