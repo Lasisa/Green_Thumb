@@ -1,6 +1,8 @@
 @use "variables";
 
 .green {
+    width: variables.$main-width;
+    margin: 0 auto;
     height: 39px;
     background-color: variables.$main-bg-color;
 }

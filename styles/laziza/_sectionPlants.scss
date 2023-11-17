@@ -1,14 +1,16 @@
 @use "variables";
 
 .plant {
-    background-color: blueviolet;
+    background-color: aquamarine;
     height: 710px;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: variables.$main-width;
+    margin: 0 auto;
 
     .middle {
-        background-color: cadetblue;
+        background-color: rgb(100, 217, 221);
         width: 594px;
         height: 710px;
     }

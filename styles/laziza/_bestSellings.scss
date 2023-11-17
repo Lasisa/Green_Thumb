@@ -1,5 +1,69 @@
 @use "variables";
 
 
+.best_sellings {
+    width: variables.$main-width;
+    margin: 0 auto;
+
+    .sellings {
+        width: variables.$second-width;
+        margin: 0 auto;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        align-items: center;
+    }
+    h4 {
+        font-family: variables.$main-font-family;
+        font-size: 56px;
+        font-weight: 600;
+        line-height: 67px;
+    }
+    span {
+        color: variables.$main-bg-color;
+    }
+    .bestSellp {
+        font-family: variables.$main-font-family;
+font-size: 30px;
+font-weight: 400;
+line-height: 22px;
+text-transform: uppercase;
+
+    }
+    hr {
+        width: variables.$second-width;
+        margin: 0 auto;
+    }
+    .flowers {
+        width: variables.$second-width;
+        height: 500px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .flower {
+        width: 328px;
+        height: 288px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .bt-flower { 
+        align-items: center;
+        width: 328px;
+        height: 64px;
+border: none;
+background-color: variables.$main-bg-color;
+border-radius: 16px;
+text-align: center;
+padding: 20px;
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+color: variables.$main-color;
+margin-top: 10px;
+    }
+}
 
 
