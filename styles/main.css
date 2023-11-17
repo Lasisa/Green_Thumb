@@ -1,11 +1,13 @@
 .header {
   background-color: #50806B;
   color: #FFFFFF;
+  width: 1400px;
   height: 45px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   text-align: center;
+  margin: 0 auto;
 }
 .header .header_p2 {
   display: flex;
@@ -19,6 +21,8 @@
   align-items: center;
   gap: 87px;
   height: 61px;
+  width: 1400px;
+  margin: 0 auto;
 }
 .menu a {
   text-decoration: none;
@@ -39,14 +43,16 @@
 }
 
 .plant {
-  background-color: blueviolet;
+  background-color: aquamarine;
   height: 710px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 1400px;
+  margin: 0 auto;
 }
 .plant .middle {
-  background-color: cadetblue;
+  background-color: rgb(100, 217, 221);
   width: 594px;
   height: 710px;
 }
@@ -95,13 +101,15 @@
 }
 
 .green {
+  width: 1400px;
+  margin: 0 auto;
   height: 39px;
   background-color: #50806B;
 }
 
 .shopB {
   height: 180px;
-  width: 1600px;
+  width: 1228px;
   margin: 0 auto;
 }
 .shopB span {
@@ -113,13 +121,11 @@
   font-size: 56px;
   font-weight: 600;
   line-height: 67px;
-  letter-spacing: 0em;
-  text-align: left;
   align-items: flex-end;
 }
 
 .container {
-  width: 1600px;
+  width: 1228px;
   height: 250px;
   margin: 0 auto;
   display: flex;
@@ -138,4 +144,67 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 22px;
+}
+
+.best_sellings {
+  width: 1400px;
+  margin: 0 auto;
+}
+.best_sellings .sellings {
+  width: 1228px;
+  margin: 0 auto;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+}
+.best_sellings h4 {
+  font-family: Poppins;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67px;
+}
+.best_sellings span {
+  color: #50806B;
+}
+.best_sellings .bestSellp {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.best_sellings hr {
+  width: 1228px;
+  margin: 0 auto;
+}
+.best_sellings .flowers {
+  width: 1228px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.best_sellings .flower {
+  width: 328px;
+  height: 288px;
+  display: flex;
+  justify-content: space-between;
+}
+.best_sellings .bt-flower {
+  align-items: center;
+  width: 328px;
+  height: 64px;
+  border: none;
+  background-color: #50806B;
+  border-radius: 16px;
+  text-align: center;
+  padding: 20px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-top: 10px;
 }/*# sourceMappingURL=main.css.map */

@@ -6,6 +6,8 @@
     align-items: center;
     gap: 87px;
     height: 61px;
+    width: variables.$main-width;
+    margin: 0 auto;
 
     a {
     text-decoration: none;

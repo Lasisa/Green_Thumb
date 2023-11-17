@@ -3,12 +3,13 @@
 .header {
     background-color: variables.$main-bg-color;
     color: variables.$main-color;
-    //width: variables.$main-width;
+    width: variables.$main-width;
     height: 45px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    margin: 0 auto;
     .header_p2 {
         display: flex;
         justify-content: center;
