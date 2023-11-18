@@ -207,4 +207,326 @@
   line-height: 27px;
   color: #FFFFFF;
   margin-top: 10px;
+}
+
+#hottest-container {
+  max-width: 1400px;
+  background: #E8EDDE;
+  margin: 0 auto;
+}
+#hottest-container .hottest-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  max-width: 1228px;
+  padding: 32px 0px;
+  margin: 0 auto 50px auto;
+}
+#hottest-container .hottest-header h4 {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+#hottest-container .hottest-header h4 span {
+  color: #50806B;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+#hottest-container .hottest-header .shop-all-btn {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+#hottest-container .hottest-products {
+  display: flex;
+  flex-direction: column;
+}
+#hottest-container .hottest-products #products-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto 24px auto;
+  gap: 24px;
+}
+#hottest-container .hottest-products #products-container .products-box {
+  max-width: 282px;
+  border-radius: 16px;
+  background: #FFF;
+  box-shadow: 0px 8px 23px 0px rgba(80, 107, 82, 0.13);
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  gap: 16px;
+  align-self: stretch;
+  max-height: 418.5px;
+  align-items: center;
+}
+#hottest-container .hottest-products #products-container .products-box .price {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+#hottest-container .hottest-products #products-container .products-box .price h6 {
+  color: #343434;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#hottest-container .hottest-products #products-container .products-box .price p {
+  display: flex;
+  color: #343434;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#hottest-container .hottest-products #products-container .products-box .buy {
+  border: none;
+  background-color: #50806B;
+  border-radius: 16px;
+  text-align: center;
+  padding: 20px 100px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#deals {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+#deals .deals-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  max-width: 1228px;
+  padding: 32px 0px;
+  margin: 0 auto 50px auto;
+}
+#deals .deals-header h4 {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+#deals .deals-header h4 span {
+  color: #50806B;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+#deals .card-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding: 0px 39px 147.5px 39px;
+}
+#deals .card-container .cards {
+  max-width: 282px;
+  border-radius: 16px;
+  background: #FFF;
+  box-shadow: 0px 8px 23px 0px rgba(80, 107, 82, 0.13);
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  gap: 16px;
+  align-self: stretch;
+  max-height: 418.5px;
+  align-items: center;
+}
+#deals .card-container .cards .deals-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#deals .card-container .cards .deals-text h6 {
+  color: #343434;
+  align-self: stretch;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#deals .card-container .cards .deals-text p {
+  color: #343434;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+#deals .card-container .cards .deals-text p span {
+  color: #D11F1F;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration: line-through;
+  padding-left: 8px;
+}
+#deals .card-container .cards button {
+  border: none;
+  background-color: #50806B;
+  border-radius: 16px;
+  text-align: center;
+  padding: 20px 100px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+#testimonials {
+  max-width: 1400px;
+  background: #E8EDDE;
+  margin: 0 auto;
+}
+#testimonials .testimonials-container {
+  padding: 88.35px 161.39px 26.51px 160.42px;
+  display: flex;
+  flex-direction: column;
+}
+#testimonials .testimonials-container h2 {
+  color: #000;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 62px;
+  letter-spacing: -2.4px;
+}
+#testimonials .testimonials-container p {
+  color: #000;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27.6px;
+  letter-spacing: 0.1px;
+  padding-bottom: 20px;
+}
+#testimonials .testimonials-container .feedback {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 147.37px;
+}
+#testimonials .testimonials-container .feedback .feedback-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  background: #FFF;
+  box-shadow: 0px 4px 24px 0px rgba(139, 167, 178, 0.16);
+  align-items: center;
+  max-width: 340.278px;
+  max-height: 289.601px;
+  padding: 30px 20px;
+}
+#testimonials .testimonials-container .feedback .feedback-card .people {
+  width: 81.667px;
+  height: 82.463px;
+  border-radius: 82.463px;
+  box-shadow: 0px 3.36px 20.16px 0px rgba(139, 167, 178, 0.16);
+  margin-bottom: 13.84px;
+  background: #FFF;
+}
+#testimonials .testimonials-container .feedback .feedback-card .stars {
+  width: 141.892px;
+  height: 23.561px;
+  margin-bottom: 21.6px;
+}
+#testimonials .testimonials-container .feedback .feedback-card h6 {
+  color: #1D293F;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28.8px;
+  max-width: 295.556px;
+  max-height: 58.902px;
+  margin-bottom: 5.89px;
+}
+#testimonials .testimonials-container .feedback .feedback-card p {
+  color: #7C8087;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#footer {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+#footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px 0px;
+}
+#footer ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+#footer .icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding-bottom: 48px;
+}
+
+.info {
+  max-width: 1400px;
+  padding: 16px 0px;
+  background: #50806B;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  color: #E8EDDE;
+  text-align: center;
+  font-family: Public Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=main.css.map */

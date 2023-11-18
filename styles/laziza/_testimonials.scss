@@ -1,0 +1,96 @@
+@use "variables";
+
+#testimonials {
+    max-width: 1400px;
+    background: #E8EDDE;
+    margin: 0 auto;
+
+    .testimonials-container {
+        padding: 88.35px 161.39px 26.51px 160.42px;
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            color: #000;
+            text-align: center;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Poppins;
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 62px;
+            letter-spacing: -2.4px;
+        }
+
+        p {
+            color: #000;
+            text-align: center;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Open Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 27.6px;
+            letter-spacing: 0.1px;
+            padding-bottom: 20px;
+        }
+
+        .feedback {
+            display: flex;
+            justify-content: space-evenly;
+            padding-bottom: 147.37px;
+
+            .feedback-card {
+                display: flex;
+                flex-direction: column;
+                border-radius: 6px;
+                background: #FFF;
+                box-shadow: 0px 4px 24px 0px rgba(139, 167, 178, 0.16);
+                align-items: center;
+                max-width: 340.278px;
+                max-height: 289.601px;
+                padding: 30px 20px;
+
+                .people {
+                    width: 81.667px;
+                    height: 82.463px;
+                    border-radius: 82.463px;
+                    box-shadow: 0px 3.36px 20.16px 0px rgba(139, 167, 178, 0.16);
+                    margin-bottom: 13.84px;
+                    background: #FFF;
+                }
+
+                .stars {
+                    width: 141.892px;
+                    height: 23.561px;
+                    margin-bottom: 21.6px;
+                }
+
+                h6 {
+                    color: #1D293F;
+                    text-align: center;
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: Poppins;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 28.8px;
+                    max-width: 295.556px;
+                    max-height: 58.902px;
+                    margin-bottom: 5.89px;
+                }
+
+                p {
+                    color: #7C8087;
+                    text-align: center;
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: Poppins;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}
