@@ -108,7 +108,7 @@
 }
 
 .shopB {
-  height: 180px;
+  height: 140px;
   width: 1228px;
   margin: 0 auto;
 }
@@ -122,6 +122,11 @@
   font-weight: 600;
   line-height: 67px;
   align-items: flex-end;
+}
+
+.shopB-hr {
+  margin: 0 auto;
+  width: 1228px;
 }
 
 .container {
@@ -191,6 +196,7 @@
   height: 288px;
   display: flex;
   justify-content: space-between;
+  margin-top: 40px;
 }
 .best_sellings .bt-flower {
   align-items: center;
