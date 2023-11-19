@@ -1,0 +1,92 @@
+@use 'variables';
+
+#hottest-container {
+    max-width: 1400px;
+    background: #E8EDDE;
+    margin: 0 auto;
+
+    .hottest-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #000;
+        max-width: 1228px;
+        padding: 32px 0px;
+        margin: 0 auto 50px auto;
+
+        h4 {
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 120%;
+
+            span {
+                color: #50806B;
+                font-size: 56px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 120%;
+            }
+        }
+
+        .shop-all-btn {
+            @include shop-all-btn;
+        }
+    }
+
+    .hottest-products {
+        display: flex;
+        flex-direction: column;
+
+        #products-container {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 0 auto 24px auto;
+            gap: 24px;
+
+            .products-box {
+                max-width: 282px;
+                border-radius: 16px;
+                background: #FFF;
+                box-shadow: 0px 8px 23px 0px rgba(80, 107, 82, 0.13);
+                display: flex;
+                padding: 20px;
+                flex-direction: column;
+                gap: 16px;
+                align-self: stretch;
+                max-height: 418.5px;
+                align-items: center;
+
+                .price {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 4px;
+
+                    h6 {
+                        color: #343434;
+                        font-family: Open Sans;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+
+                    p {
+                        display: flex;
+                        color: #343434;
+                        text-align: center;
+                        font-family: Open Sans;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+
+                .buy {
+                    @include buy-hottest-btn;
+                }
+            }
+        }
+    }
+}

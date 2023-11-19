@@ -1,0 +1,46 @@
+@use "variables";
+
+#footer {
+    max-width: 1400px;
+    margin: 0 auto;
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        padding: 24px 0px;
+
+        li {
+            a {
+                text-decoration: none;
+                color: #000000;
+            }
+        }
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        padding-bottom: 48px;
+    }
+}
+
+.info {
+    max-width: 1400px;
+    padding: 16px 0px;
+    background: #50806B;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: #E8EDDE;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
