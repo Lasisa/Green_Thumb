@@ -1,6 +1,7 @@
 @use "variables";
 
 .plant {
+
     background-color: aquamarine;
     height: 710px;
     display: flex;
@@ -10,6 +11,7 @@
     margin: 0 auto;
 
     .middle {
+        background-image: url(/img_L/middle.svg);
         background-color: rgb(100, 217, 221);
         width: 594px;
         height: 710px;
