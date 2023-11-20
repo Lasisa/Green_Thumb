@@ -50,9 +50,10 @@
   align-items: center;
   width: 1400px;
   margin: 0 auto;
+  background-image: url(/img_L/background_img.png);
 }
 .plant .middle {
-  background-color: rgb(100, 217, 221);
+  background-color: rgb(100, 217, 221) transparent;
   width: 594px;
   height: 710px;
 }
