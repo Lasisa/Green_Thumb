@@ -8,12 +8,14 @@
     align-items: center;
     width: variables.$main-width;
     margin: 0 auto;
+    background-image: url(/img_L/background_img.png);
 
     .middle {
-        background-color: rgb(100, 217, 221);
+        background-color: rgb(100, 217, 221) transparent;
         width: 594px;
         height: 710px;
     }
+
     .h1 {
         width: 542px;
         height: 188px;
@@ -25,6 +27,7 @@
         margin: 0 auto;
         margin-top: 150px;
     }
+
     .plant_p {
         width: 320px;
         height: 92px;
@@ -34,9 +37,11 @@
         align-items: center;
         margin: 0 auto;
     }
+
     .plantP {
         margin-top: 10px;
     }
+
     .plant-button {
         width: 264px;
         height: 70px;
@@ -51,6 +56,7 @@
         letter-spacing: -0.4000000059604645px;
         text-align: center;
     }
+
     .btn {
         display: flex;
         justify-content: center;
@@ -58,7 +64,3 @@
         margin-top: 30px;
     }
 }
-
-
-
-
