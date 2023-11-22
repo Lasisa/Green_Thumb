@@ -52,6 +52,7 @@
   align-items: center;
   width: 1400px;
   margin: 0 auto;
+  background-image: url(/img_L/background_img.png);
 }
 .plant .middle {
   background: rgba(80, 128, 107, 0.2);
