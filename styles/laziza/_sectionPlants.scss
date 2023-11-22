@@ -1,17 +1,19 @@
 @use "variables";
 
 .plant {
-    background-color: aquamarine;
+    background-image: url('../img_L/IMG_1148.jpg');
+    background-size: cover;
     height: 710px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: variables.$main-width;
     margin: 0 auto;
-    background-image: url(/img_L/background_img.png);
 
     .middle {
-        background-color: rgb(100, 217, 221) transparent;
+        background: rgba(80, 128, 107, 0.20);
+        backdrop-filter: blur(20px);
+        background-image: url(/img_L/background_img.png);
         width: 594px;
         height: 710px;
     }
@@ -21,7 +23,7 @@
         height: 188px;
         font-family: variables.$main-font-family;
         font-size: 80px;
-        font-weight: 600;
+        //font-weight: 600;
         line-height: 80px;
         text-align: center;
         margin: 0 auto;
@@ -29,7 +31,7 @@
     }
 
     .plant_p {
-        width: 320px;
+       width: 320px;
         height: 92px;
         font-family: variables.$main-font-family;
         line-height: 33px;

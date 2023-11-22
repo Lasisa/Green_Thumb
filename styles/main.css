@@ -4,14 +4,15 @@
   width: 1400px;
   height: 45px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   text-align: center;
   margin: 0 auto;
+  justify-self: center;
 }
 .header .header_p2 {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 40px;
 }
 
@@ -35,7 +36,7 @@
 .menu .searchNum {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
 }
 .menu .img-menu {
   width: 22px;
@@ -43,7 +44,8 @@
 }
 
 .plant {
-  background-color: aquamarine;
+  background-image: url("../img_L/IMG_1148.jpg");
+  background-size: cover;
   height: 710px;
   display: flex;
   justify-content: center;
@@ -53,7 +55,9 @@
   background-image: url(/img_L/background_img.png);
 }
 .plant .middle {
-  background-color: rgb(100, 217, 221) transparent;
+  background: rgba(80, 128, 107, 0.2);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
   width: 594px;
   height: 710px;
 }
@@ -62,7 +66,6 @@
   height: 188px;
   font-family: Poppins;
   font-size: 80px;
-  font-weight: 600;
   line-height: 80px;
   text-align: center;
   margin: 0 auto;
@@ -109,7 +112,7 @@
 }
 
 .shopB {
-  height: 180px;
+  height: 140px;
   width: 1228px;
   margin: 0 auto;
 }
@@ -123,6 +126,11 @@
   font-weight: 600;
   line-height: 67px;
   align-items: flex-end;
+}
+
+.shopB-hr {
+  margin: 0 auto;
+  width: 1228px;
 }
 
 .container {
@@ -163,16 +171,13 @@
 .best_sellings h4 {
   font-family: Poppins;
   font-size: 56px;
-  font-weight: 600;
   line-height: 67px;
 }
 .best_sellings span {
   color: #50806B;
 }
 .best_sellings .bestSellp {
-  font-family: Poppins;
   font-size: 30px;
-  font-weight: 400;
   line-height: 22px;
   text-transform: uppercase;
 }
@@ -192,6 +197,7 @@
   height: 288px;
   display: flex;
   justify-content: space-between;
+  margin-top: 40px;
 }
 .best_sellings .bt-flower {
   align-items: center;
@@ -202,9 +208,7 @@
   border-radius: 16px;
   text-align: center;
   padding: 20px;
-  font-family: Open Sans;
   font-size: 20px;
-  font-weight: 700;
   line-height: 27px;
   color: #FFFFFF;
   margin-top: 10px;

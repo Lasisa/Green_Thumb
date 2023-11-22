@@ -6,13 +6,15 @@
     width: variables.$main-width;
     height: 45px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     text-align: center;
     margin: 0 auto;
+    justify-self: center;
+
     .header_p2 {
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         gap: 40px;
     }
    
